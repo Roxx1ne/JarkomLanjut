@@ -109,7 +109,7 @@ destination address 192.168.2.0/24
 gateway 60.60.60.1
 
 
-#ANALISIS
+# Analisis
 1. Struktur Topologi
 Topologi ini terdiri dari tiga router yang masing-masing berfungsi sebagai gateway untuk jaringan lokal (LAN). Setiap router terhubung ke internet melalui antarmuka Ethernet (ETH1) dan juga memiliki antarmuka lokal (E2) yang terhubung ke switch, menghubungkan beberapa perangkat dalam jaringan LAN.Router-router ini terhubung satu sama lain melalui tunnel IPIP (IP-in-IP), yang memungkinkan komunikasi antar jaringan lokal di setiap router melalui internet.
 
